@@ -6,7 +6,7 @@ FROM gitpod/workspace-full-vnc
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN sudo apt-get update && sudo apt-get install libopenmpi-dev
+RUN sudo apt-get update && sudo apt-get install -y libopenmpi-dev
 RUN pwd && \
     cd /home/gitpod && \
     git clone https://github.com/openai/spinningup.git && \
