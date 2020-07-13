@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3
+FROM gitpod/workspace-full-vnc:branch-master
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
