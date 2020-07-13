@@ -6,9 +6,9 @@ FROM continuumio/anaconda3
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-USER gitpod
+# USER gitpod
 
-RUN sudo apt-get update && sudo apt-get install -y libopenmpi-dev
-RUN git clone https://github.com/openai/spinningup.git && \
-    cd spinningup && \
-    pip install -e .
+# RUN sudo apt-get update && sudo apt-get install -y libopenmpi-dev
+# RUN git clone https://github.com/openai/spinningup.git && \
+#     cd spinningup && \
+#     pip install -e .
